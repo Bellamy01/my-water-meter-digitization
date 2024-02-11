@@ -5,9 +5,6 @@ This project demonstrates a Python script using OpenCV and Tesseract to extract 
 ## Project Structure
 
 - **src/**: Python code for image processing and OCR
-    - **image_utils.py**: Utility functions for image preprocessing (grayscale conversion, noise reduction, etc.).
-    - **meter_detector.py**: Algorithm to detect and isolate water meter regions in images.
-    - **ocr_engine.py**: Tesseract-based OCR engine for text extraction from detected regions.
     - **main.py**: Main script that orchestrates the image processing and OCR workflow.
     - **requirements.txt**: List of required Python dependencies (e.g., OpenCV, Tesseract, NumPy).
 
